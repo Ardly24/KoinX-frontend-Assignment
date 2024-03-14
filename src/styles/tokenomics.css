@@ -1,0 +1,22 @@
+.tokenomics{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tokenomicsContent{
+    padding-top: 1rem;
+}
+
+.chart1{
+    width: 50%;
+}
+
+@media screen and (max-width: 740px){
+    .chart1{
+        width: 100%;
+    }
+  }

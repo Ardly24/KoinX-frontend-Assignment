@@ -1,0 +1,57 @@
+.tabsContainer{
+    margin-top: 2rem;
+}
+
+.performance{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+}
+
+.slider{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+}
+
+.slide{
+    width: 75%;
+}
+
+.fundamentals{
+ margin-top: 1.5rem;
+}
+
+.head{
+color: rgb(105, 102, 102);
+font-weight: 500;
+}
+
+.tables{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table1{
+    margin: 1rem 0rem;
+    width: 47%;
+}
+
+.nameB{
+    font-weight: 800;
+    color: black;
+}
+
+@media screen and (max-width: 740px){
+    .tables{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .table1{
+ width: 100%;
+}
+  }

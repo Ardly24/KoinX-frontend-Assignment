@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:ital,wght@0,300;0,700;1,400&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body{
+  background-color: #EFF2F5;
+}
+
+a{
+  color: #fff ;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;                  
+}
+
+
+.btn{
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #1403f6;
+  color: #ffff;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.btn-light{
+background-color: #fff;
+color: black;
+width: fit-content;
+padding: 10px 18px;
+}
+
+.btn:hover{
+  background: #fff;
+  color:#1403f6;
+  border: 1px solid gray;
+  transition: 0.3s;
+}
+

@@ -1,0 +1,47 @@
+.team{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+    margin-top: 2rem;
+
+}
+
+.text1{
+    padding: 1.2rem 0rem;
+}
+
+.cardTeam{
+    width: 100%;
+    background-color: #cce2f7;
+    margin-bottom: 1.5rem;
+}
+
+.cardContentt{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.imageTeam{
+ width: 6rem;
+ height: 6.5rem;
+}
+
+.contentTeam{
+    width: 85%;
+    padding-top: 1rem;
+    background-color: #cce2f7;
+}
+
+@media screen and (max-width: 740px){
+    .cardContentt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+.contentTeam{
+ width: 100%;
+}
+  }

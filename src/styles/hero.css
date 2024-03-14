@@ -1,0 +1,186 @@
+.hero{
+    position: relative;
+    top:90px;
+    width:100%;
+    margin: 0rem 4rem;
+
+}
+
+.container{
+    width: 95%;
+    margin-top: 0.5rem;
+    display:flex;
+    justify-content: space-around;
+}
+
+.crypto{
+    display:flex;
+    align-items: flex-end;
+    color: gray;
+    font-weight: 400;
+    margin: 0rem 1.5rem;
+}
+
+.icon{
+    margin: 0rem 0.5rem;
+}
+
+.text{
+    color: black;
+}
+
+.left{
+    width: 65%;
+}
+
+.aboutbitcoin{
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+
+}
+
+.heading{
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+    font-weight: 400;
+}
+
+.btc{
+    color: rgb(164, 163, 163);
+}
+
+.tag{
+  background-color:#768396;
+  color: #fff;
+  padding: 0 0.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 8px;
+  display: flex;
+align-items: center;
+text-align: center;
+  margin-left: 2rem;
+}
+
+.right{
+    width: 30%;
+}
+
+.getStarted{
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color:#1403f6;
+  color: #fff;
+  padding: 2rem 3rem;
+  display: flex;
+ flex-direction: column;
+ gap: 12px;
+ text-align: center;
+ align-items: center;
+ height: fit-content;
+}
+
+.trendingCoins{
+ margin-top: 1.5rem;
+ background-color: #fff;
+ padding: 1.5rem 1.5rem 1rem;
+ border-radius: 0.5rem;
+}
+
+.trendinglist{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.coinName{
+  padding: 0rem 0.5rem;
+  font-size: 1rem;
+}
+
+.image1{
+    width: 250px;
+     height: 250px;
+  }
+
+  .rates{
+    margin-top: 2.5rem;
+    display: flex;
+    gap:3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #DEE1E6;
+  }
+
+  .rupee{
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  .pleft{
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+  }
+  .pricesup{
+    background-color: #EBF9F4;
+    width: 5.25rem;
+    height: 1.75rem;
+    padding:0.5rem;
+    border-radius: 0.25rem;
+    gap: 0.5rem;
+    color:#14B079;
+    text-align: center;
+    display: flex;
+  }
+
+  .pricesdown{
+    background-color: rgb(226, 189, 189);
+    width: 5.25rem;
+    height: 1.75rem;
+    padding:0.5rem;
+    border-radius: 0.25rem;
+    gap: 0.5rem;
+    color:red;
+    text-align: center;
+    display: flex;
+  }
+
+  .time{
+    color: rgb(164, 163, 163);
+    font-size: 0.88;
+  }
+
+  .chart{
+    margin-top: 1rem;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .image-logo{
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+  }
+  @media screen and (max-width: 740px){
+    .container{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .left, .right{
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .hero{
+      margin: 0rem 1rem;
+  }
+
+  }
+  
